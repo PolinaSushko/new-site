@@ -1,0 +1,84 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #98bf0d;
+    padding: 20px;
+    height: 100px;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin: 0 15px;
+}
+
+.navbar .nav-links a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar .language-switcher a {
+    margin-left: 15px;
+}
+
+.navbar .language-switcher img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Hero Section Styling */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 50px;
+    height: 612px;
+}
+
+.hero .content h1 {
+    font-size: 3em;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero .content p a {
+    color: #ffeb3b;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.hero button {
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.hero .coffee-image img {
+    max-width: 400px;
+}
+

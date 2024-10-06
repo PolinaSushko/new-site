@@ -1,0 +1,67 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+}
+
+.container {
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.heading {
+    color: #A8D08D;
+    font-size: 16px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.description {
+    margin-top: 20px;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.points {
+    list-style-type: disc;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.dot-navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: #888;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #A8D08D;
+}
+
+.coffee-image {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
+
+.coffee-image img {
+    width: 80px;
+    height: auto;
+}
